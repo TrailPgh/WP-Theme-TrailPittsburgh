@@ -1,0 +1,709 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: dotorg/functions/widgets/widget-blog-list.php:1
+msgid "!!Posts block for Elementor only!!"
+msgstr ""
+
+#. Text in echo
+#: dotorg/functions/widgets/em-events.php:161
+msgid "1,2,3 or 2 (0 = all)"
+msgstr ""
+
+#. Text in echo
+#: dotorg/404.php:16
+msgid "404 • Page not found "
+msgstr ""
+
+#. Text in function
+#: dotorg/redux-framework/redux-themnific.php:1
+msgid "<p class=\"description\">This is a section created by adding a filter to the sections array. Can be used by child themes to add/remove sections from the options.</p>"
+msgstr ""
+
+#. Text in echo
+#: dotorg/includes/mag-authorinfo.php:5
+msgid "About the Author"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions/posttypes/post-metabox.php:1
+msgid "Ad Banner"
+msgstr ""
+
+#. Text in echo
+#: dotorg/functions/widgets/widget-ads-300.php:66
+msgid "Ad Code:"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions/posttypes/post-metabox.php:1
+msgid "Ad Target URL"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions/posttypes/post-metabox.php:1
+msgid "Advertisement - override Post Static Ad (set in Admin panel)"
+msgstr ""
+
+#. Text in echo
+#: dotorg/includes/uni-404-content.php:3
+msgid "All Blog Posts"
+msgstr ""
+
+#. Text in echo
+#: dotorg/functions/widgets/em-events.php:168
+msgid "All events link text?"
+msgstr ""
+
+#. Text in function
+#: dotorg/class-tgm-plugin-activation.php:1
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions.php:303
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#. Text in echo
+#: dotorg/functions/widgets/widget-ads-300.php:79
+msgid "Alt text:"
+msgstr ""
+
+#. Text in echo
+#: dotorg/archive.php:31
+msgid "Archive"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions/widgets/em-events.php:145
+msgid "Ascending"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions.php:303
+msgid "Audio"
+msgstr ""
+
+#. Text in echo
+#: dotorg/archive.php:36
+msgid "Author"
+msgstr ""
+
+#. Text in function
+#: dotorg/redux-framework/redux-themnific.php:153
+msgid "By %s"
+msgstr ""
+
+#. Text in echo
+#: dotorg/functions/widgets/em-events.php:159
+msgid "Category IDs"
+msgstr ""
+
+#. Text in echo
+#: dotorg/comments.php:40
+msgid "Comments are closed."
+msgstr ""
+
+#. Text in echo
+#: dotorg/redux-framework/redux-themnific.php:142
+#: dotorg/redux-framework/redux-themnific.php:146
+msgid "Current theme preview"
+msgstr ""
+
+#. Text in function
+#: dotorg/redux-framework/redux-themnific.php:1
+msgid "Customize &#8220;%s&#8221;"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions/widgets/em-events.php:1
+msgid "Customized Widget - Display a list of events on Events Manager."
+msgstr ""
+
+#. Text in function
+#: dotorg/functions/widgets/em-events.php:145
+msgid "Descending"
+msgstr ""
+
+#. Text in function
+#: dotorg/class-tgm-plugin-activation.php:1
+msgid "Dismiss this notice"
+msgstr ""
+
+#. Text in echo
+#: dotorg/template-donation.php:52
+msgid "Donate Now"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions.php:303
+msgid "Elementor"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions.php:303
+msgid "Eleslider"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions/widgets/em-events.php:1
+msgid "Events"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions/widgets/widget-featured.php:1
+msgid "Featured posts widget."
+msgstr ""
+
+#. Text in echo
+#: dotorg/functions/widgets/widget-blog-list.php:92
+#: dotorg/functions/widgets/widget-featured.php:87
+msgid "Filter by Category"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions.php:303
+msgid "Footer 1"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions.php:303
+msgid "Footer 2"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions.php:303
+msgid "Footer 3"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions.php:303
+msgid "Footer 4"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions.php:303
+msgid "Footer Menu"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions.php:303
+msgid "Gallery"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions.php:303
+msgid "Image"
+msgstr ""
+
+#. Text in echo
+#: dotorg/functions/widgets/widget-ads-300.php:71
+msgid "Image Url:"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions/posttypes/post-metabox.php:1
+msgid "Insert the URL you wish to link to."
+msgstr ""
+
+#. Text in function
+#: dotorg/class-tgm-plugin-activation.php:1
+#: dotorg/functions.php:303
+msgid "Install Plugins"
+msgstr ""
+
+#. Text in function
+#: dotorg/class-tgm-plugin-activation.php:1
+#: dotorg/functions.php:303
+msgid "Install Required Plugins"
+msgstr ""
+
+#. Text in function
+#: dotorg/class-tgm-plugin-activation.php:1
+#: dotorg/functions.php:303
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. Text in echo
+#: dotorg/single-info.php:11
+msgid "Last modified"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions.php:303
+#: dotorg/functions/posttypes/post-metabox.php:1
+msgid "Link"
+msgstr ""
+
+#. Text in echo
+#: dotorg/functions/widgets/widget-ads-300.php:75
+msgid "Link URL:"
+msgstr ""
+
+#. Text in echo
+#: dotorg/functions/widgets/em-events.php:182
+msgid "List item format"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions.php:303
+msgid "Main Menu"
+msgstr ""
+
+#. Text in echo
+#: dotorg/header.php:59
+msgid "Menu"
+msgstr ""
+
+#. Text in function
+#: dotorg/comments.php:29
+msgid "Newer Comments"
+msgstr ""
+
+#. Text in echo
+#: dotorg/index.php:14
+msgid "News"
+msgstr ""
+
+#. Text in function
+#: dotorg/single-content.php:39
+msgid "Next"
+msgstr ""
+
+#. Text in echo
+#: dotorg/includes/mag-nextprev.php:35
+msgid "Next Story"
+msgstr ""
+
+#. Text in function
+#: dotorg/class-tgm-plugin-activation.php:1
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. Text in function
+#: dotorg/functions/widgets/em-events.php:1
+msgid "No events"
+msgstr ""
+
+#. Text in echo
+#: dotorg/functions/widgets/em-events.php:186
+msgid "No events message"
+msgstr ""
+
+#. Text in echo
+#: dotorg/archive.php:86
+#: dotorg/index.php:53
+msgid "Nothing found here"
+msgstr ""
+
+#. Text in echo
+#: dotorg/functions/widgets/em-events.php:118
+msgid "Number of events"
+msgstr ""
+
+#. Text in echo
+#: dotorg/functions/widgets/widget-blog-list.php:103
+#: dotorg/functions/widgets/widget-featured.php:98
+msgid "Number of posts"
+msgstr ""
+
+#. Text in echo
+#: dotorg/functions/widgets/widget-blog-list.php:108
+msgid "Offset posts"
+msgstr ""
+
+#. Text in function
+#: dotorg/comments.php:28
+msgid "Older Comments"
+msgstr ""
+
+#. Text in echo
+#: dotorg/search.php:54
+msgid "Oops! Nothing found here"
+msgstr ""
+
+#. Text in echo
+#: dotorg/404.php:19
+msgid "Oops! The page you are looking for does not exist. It might have been moved or deleted. "
+msgstr ""
+
+#. Text in function
+#: dotorg/functions/posttypes/post-metabox.php:1
+msgid "Optional usage."
+msgstr ""
+
+#. Text in echo
+#: dotorg/functions/widgets/em-events.php:143
+msgid "Order"
+msgstr ""
+
+#. Text in echo
+#: dotorg/functions/widgets/em-events.php:133
+msgid "Order By"
+msgstr ""
+
+#. Text in function
+#: dotorg/page.php:28
+#: dotorg/template-fullwidth.php:32
+msgid "Pages:"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions/posttypes/post-metabox.php:1
+msgid "Paste target URL."
+msgstr ""
+
+#. Text in echo
+#: dotorg/archive.php:88
+#: dotorg/index.php:55
+msgid "Perhaps You will find something interesting from these lists..."
+msgstr ""
+
+#. Text in function
+#: dotorg/class-tgm-plugin-activation.php:1
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#. Text in function
+#: dotorg/class-tgm-plugin-activation.php:1
+#: dotorg/functions.php:303
+msgid "Plugin activated successfully."
+msgstr ""
+
+#. Text in function
+#: dotorg/class-tgm-plugin-activation.php:1
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. Text in function
+#: dotorg/functions/posttypes/post-metabox.php:1
+msgid "Post  Formats"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions/posttypes/post-metabox.php:1
+msgid "Post sidebar"
+msgstr ""
+
+#. Text in function
+#: dotorg/single-content.php:39
+msgid "Previous"
+msgstr ""
+
+#. Text in echo
+#: dotorg/includes/mag-nextprev.php:15
+msgid "Previous Story"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions.php:303
+msgid "Quote"
+msgstr ""
+
+#. Text in echo
+#: dotorg/functions.php:308
+msgid "Read More"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions.php:303
+msgid "Redux Framework"
+msgstr ""
+
+#. Text in function
+#: dotorg/class-tgm-plugin-activation.php:1
+#: dotorg/functions.php:303
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#. Text in function
+#: dotorg/class-tgm-plugin-activation.php:1
+msgid "Return to the Dashboard"
+msgstr ""
+
+#. Text in echo
+#: dotorg/functions/widgets/em-events.php:123
+msgid "Scope"
+msgstr ""
+
+#. Text in echo
+#: dotorg/footer.php:71
+msgid "Scroll to top"
+msgstr ""
+
+#. Text in echo
+#: dotorg/searchform.php:3
+msgid "Search"
+msgstr ""
+
+#. Text in echo
+#: dotorg/search.php:15
+msgid "Search Results"
+msgstr ""
+
+#. Text in echo
+#: dotorg/includes/uni-social.php:75
+msgid "Search the site"
+msgstr ""
+
+#. Text in echo
+#: dotorg/searchform.php:2
+msgid "Search..."
+msgstr ""
+
+#. Text in function
+#: dotorg/redux-framework/redux-themnific.php:1
+msgid "Section via hook"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions.php:303
+msgid "Shop Sidebar"
+msgstr ""
+
+#. Text in echo
+#: dotorg/functions/widgets/em-events.php:164
+msgid "Show all events link at bottom?"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions/posttypes/post-metabox.php:1
+msgid "Show featured image in Single post"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions.php:303
+msgid "Sidebar"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions.php:303
+msgid "Sidebar (for Pages)"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions/posttypes/post-metabox.php:1
+msgid "Sidebar / Featured Image Options"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions.php:303
+msgid "Sidebar widget section (displayed on pages / donations)"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions.php:303
+msgid "Sidebar widget section (displayed on posts / blog)"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions.php:303
+msgid "Sidebar widget section (displayed on shop pages)"
+msgstr ""
+
+#. Text in function
+#: dotorg/class-tgm-plugin-activation.php:1
+#: dotorg/functions.php:303
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. Text in echo
+#: dotorg/template-donation.php:58
+msgid "Sorry, no donation forms found."
+msgstr ""
+
+#. Text in echo
+#: dotorg/page.php:43
+#: dotorg/single.php:46
+msgid "Sorry, no posts matched your criteria"
+msgstr ""
+
+#. Text in echo
+#: dotorg/archive.php:45
+msgid "Tag Archive"
+msgstr ""
+
+#. Text in function
+#: dotorg/redux-framework/redux-themnific.php:155
+msgid "Tags"
+msgstr ""
+
+#. Text in echo
+#: dotorg/search.php:56
+msgid "Take a moment and do a search below"
+msgstr ""
+
+#. Text in function
+#: dotorg/redux-framework/redux-themnific.php:1
+msgid "The compiler hook has run!"
+msgstr ""
+
+#. Text in function
+#: dotorg/class-tgm-plugin-activation.php:1
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions/widgets/em-events.php:180
+msgid "The list is wrapped in a %s tag, so if an %s tag is not wrapping the formats below it will be added automatically."
+msgstr ""
+
+#. Text in function
+#: dotorg/functions/widgets/em-events.php:1
+msgid "Themnific - Events"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions/posttypes/post-metabox.php:1
+msgid "Themnific Post Options"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions/widgets/widget-ads-300.php:1
+msgid "Themnific: Ads 300px/Free"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions/widgets/widget-blog-list.php:1
+msgid "Themnific: Blog List"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions/widgets/widget-featured.php:1
+msgid "Themnific: Featured"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions/widgets/widget-social.php:1
+msgid "Themnific: Social Networks"
+msgstr ""
+
+#. Text in function
+#: dotorg/class-tgm-plugin-activation.php:1
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#. Text in function
+#: dotorg/redux-framework/redux-themnific.php:157
+msgid "This <a href=\"%1$s\">child theme</a> requires its parent theme, %2$s."
+msgstr ""
+
+#. Text in function
+#: dotorg/functions/widgets/widget-social.php:1
+msgid "This is Social Networks widget."
+msgstr ""
+
+#. Text in function
+#: dotorg/class-tgm-plugin-activation.php:1
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#. Text in echo
+#: dotorg/functions/widgets/em-events.php:114
+msgid "Title"
+msgstr ""
+
+#. Text in echo
+#: dotorg/functions/widgets/widget-blog-list.php:87
+#: dotorg/functions/widgets/widget-featured.php:82
+msgid "Title (optional)"
+msgstr ""
+
+#. Text in echo
+#: dotorg/functions/widgets/widget-ads-300.php:62
+msgid "Title (optional):"
+msgstr ""
+
+#. Text in echo
+#: dotorg/functions/widgets/widget-social.php:36
+msgid "Title:"
+msgstr ""
+
+#. Text in function
+#: dotorg/class-tgm-plugin-activation.php:1
+msgid "Update Required"
+msgstr ""
+
+#. Text in function
+#: dotorg/class-tgm-plugin-activation.php:1
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions/widgets/widget-ads-300.php:1
+msgid "Use this widget to add any type of Ad as a widget."
+msgstr ""
+
+#. Text in function
+#: dotorg/redux-framework/redux-themnific.php:154
+msgid "Version %s"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions.php:303
+msgid "Video"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions.php:303
+msgid "Widget section in footer - center/left"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions.php:303
+msgid "Widget section in footer - center/right"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions.php:303
+msgid "Widget section in footer - left"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions.php:303
+msgid "Widget section in footer - right"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions/posttypes/post-metabox.php:1
+msgid "You can add 728px wide image here - paste URL of the image."
+msgstr ""
+
+#. Text in function
+#: dotorg/includes/mag-relatedposts.php:3
+msgid "You might also like"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions/widgets/em-events.php:1
+msgid "all events"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions/widgets/em-events.php:1
+msgid "end date, end time, event name"
+msgstr ""
+
+#. Text in function
+#: dotorg/redux-framework/redux-themnific.php:157
+msgid "http://codex.wordpress.org/Child_Themes"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions/widgets/em-events.php:1
+msgid "name, end date, end time"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions/widgets/em-events.php:1
+msgid "name, start date, start time"
+msgstr ""
+
+#. Text in function
+#: dotorg/functions/widgets/em-events.php:1
+msgid "start date, start time, event name"
+msgstr ""

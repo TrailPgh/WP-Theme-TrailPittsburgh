@@ -1,0 +1,524 @@
+/* @containers
+********************************************************************************************
+********************************************************************************************/
+
+.container,
+.container_alt{
+width: 100%;
+max-width: 1140px;
+margin: 0 auto;
+padding:0 20px;
+overflow:hidden;
+position:relative;
+}
+
+.container_alt{ overflow:visible;padding:0 0;}
+
+.head_container{overflow:visible;}
+
+#footer .container{ background:none !important; }
+
+
+/* @columns
+********************************************************************************************
+********************************************************************************************/
+
+.onecol, .twocol, .threecol, .fourcol, .fivecol,.fifthcol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol,.warpbox {
+margin-left:0;
+float: left;
+min-height: 1px;
+}
+
+.foocol{
+margin:0 0 0 0;
+width:25%;
+padding: 60px 20px 40px 20px;
+position:relative;
+height:100%;
+min-height:1px;
+float:left;
+}
+
+.foocol.last{}
+
+/*sidebar*/
+.fourcol{ width:30%; padding:0 20px;margin:0 0 40px 0; min-height:1px; float:right;}
+
+
+
+/*content*/
+.eightcol{width:70%;padding:0 20px; margin:0 0 40px 0; min-height:1px; float:left;}
+
+
+/* sidebar position */
+.postbarLeft .eightcol{ float: right !important}
+
+.postbarLeft .fourcol{ float: left !important}
+
+.postbarNone-post .eightcol,
+.postbarNone-page .eightcol{ float:none !important; margin:0 auto !important;}
+
+
+.tmnf-sidebar-page-active.postbarNone-post .page .eightcol,
+.tmnf-sidebar-post-active.postbarNone-page .post .eightcol,
+.home.blog .tmnf-sidebar-post-active .eightcol,
+.search .tmnf-sidebar-post-active .eightcol{ float:left !important;}
+
+.single-post .postbarNone>.eightcol{ float:none !important; margin:0 auto !important;}
+
+.postbarNone .entryhead iframe{ width:100%;}
+
+/* one column layout */
+
+
+
+.sixcol{width:50%}
+
+.first,
+.ml-first {margin-left: 0px !important;}
+
+.widgetable{
+	padding:0 0;
+	overflow:hidden;
+	margin:0 0 0 0;
+}
+
+#left-sidebar .widgetable{ border:none;}
+
+.postbarLeft .widgetable{margin:0 0 0 0;}
+
+
+/**
+ * NOTE!! This makes the top nav overlap the page content. It looks nice on some pages but breaks other pages,
+ *   such as the events plugin pages. So commenting out on 2025-07-28. Remove later if still commented out.
+ */
+/*
+@media screen and (min-width: 885px) {
+	#header {
+		position: absolute;
+		background: none;
+	}
+}
+*/
+
+
+
+/* @responsive mode
+********************************************************************************************
+********************************************************************************************/
+
+
+@media screen and (max-width: 1360px) {
+	
+	.page-header img{ width:140%; max-width:140% !important; left:-20%;}
+	
+	.owl-item .eleslideinside{padding-top:60px;}
+
+}
+
+
+
+/* iPad Landscape */
+@media screen and (max-width: 1155px) {
+
+.head_container{ padding:0 0;}
+
+#titles {max-width: 25%; border-width:0 0;}
+
+#header h1,
+#header img{margin:0 0 0 0; }
+
+.topnav ul.social-menu{ margin:5px 15px 3px 15px;}
+
+.nav > li > a {padding: 15px 6px;}
+
+.nav li.menu-item-has-children a, .nav li.page_item_has_children a {
+    padding-right: 14px !important;
+}
+
+.menu-item-has-children > a::after{ right:8px;}
+
+.owl-carousel .owl-item img{ width:120% !important; max-width:120% !important; margin:0 -10%;}
+
+.owl-item.active.center{ z-index:9;}
+
+.owl-item .eleslideinside{
+	max-width:100%;
+	margin:0 0 0 0 !important;
+	padding:30px 20px;
+	left:0 !important;
+	top:28%;
+	padding-top:30px;
+}
+
+.eleslideinside p{ font-size:110%; line-height:1.3; margin:12px 0;}
+
+.eleslideinside .su-button{ margin-top:25px !important;}
+
+.eleslideinside .su-button span {
+    padding: 14px 18px !important;
+}
+.page-header {padding: 150px 0 30px 0; margin:0 0 20px 0;}
+
+.page-header img{ width:180%; max-width:180% !important; left:-40%;}
+
+.postbarNone .entry img.heroimg{
+     margin:30px -600px;
+     max-width:1200px;
+}
+
+.owl-nav {display: none;}
+
+}
+
+
+
+
+/* tablet Portrait */
+@media screen and (max-width: 885px){
+	
+div.tooltip p:after,
+.nav>li>ul:after,
+.sf-arrows .sf-with-ul::after,
+.sf-arrows .sf-with-ul::after{ display:none !important;}
+
+body {
+width: 100%;
+min-width: 0;
+margin-left: 0px;
+margin-right: 0px;
+padding-left: 0;
+padding-right: 0;
+margin-top:0;
+font-size: 16px;
+-webkit-text-size-adjust: none;
+}
+
+.onecol, .twocol, .threecol,.threecol_spec, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol, .twelvecol,.fifthcol
+{
+width: auto;
+float: none !important;
+padding-left: 0px;
+padding-right: 0px;
+margin-left: 0;
+margin-right: 0;
+}
+
+#titles { max-width: 50%; m text-align:left;}
+
+#header h1{ font-size:25px; line-height:1;}
+
+#header img{ float:left;}
+
+.page-header {padding: 50px 0 50px 0;}
+
+.owl-carousel .owl-item img{ width:140% !important; max-width:140% !important; margin:0 -20%;}
+
+.owl-item .eleslideinside{top:18%;}
+
+.eleslideinside p{ font-size:100%; line-height:1.3; margin:8px 0;}
+
+.eleslideinside .su-button{ margin-top:18px !important;}
+
+/* mobile menu */
+.show-menu{ display:block !important;}
+
+#navigation{ display:none; position:relative; height:auto;top:auto; margin:0 0 0 0 !important; padding:0 0 0 0 !important; width:100%;}
+#navigation a{ }
+
+#navigation a:hover,
+#navigation .current-menu-item>a{}
+
+ul.nav,
+#main-nav{ width:100% !important; margin:0 0 0 0 !important; padding:0 0 0 0 !important;}
+
+ul.nav li,
+.nav li ul,
+#main-nav li.mega ul.sub-menu { width:100% !important; background-color: transparent !important; border:none !important; float:none; display:block;margin:0 0 0 0 !important;padding-top:3px !important;padding-bottom:3px !important; position:relative !important; left:auto !important; display:block !important; visibility:visible !important; padding-top:0;}
+
+.nav > li ul {
+    max-height: none;
+    opacity: 1;
+}
+
+#navigation .nav li ul li > a{ border-bottom:1px dotted #444 !important; text-align:left;}
+
+ul.nav li a{ width:100% !important; text-align:left; padding:15px 20px !important; margin:0 0 0 20px; font-size:16px !important;}
+
+.nav li ul li > a {font-size: 13px !important;}
+
+.nav li a.sf-with-ul {padding-right: 0 !important;}
+
+#main-nav > li > a {margin: 0 0 0 0 !important;}
+
+.nav > li > ul > li,
+.nav li ul ul li,
+#main-nav li ul li > a,
+.nav li ul li > a {max-width: 100% !important;margin:0 0 0 0; padding:0 0 0 0;}
+
+.nav li ul{ padding:0 20px;}
+
+#main-nav li.mega ul.sub-menu { min-height:0px;}
+
+.nav li ul ul{ margin:0 0 0 0; padding:0 0 0 0;}
+
+div.sub,
+.nav > li > ul:after,
+.menu-item-has-children > a::after,
+.header_icons{ display:none !important;}
+
+#main-nav > li.special{ padding-right:20px}
+
+/* end mobile menu */
+
+
+
+/*//// 
+stacked clomuns & posts */
+
+/* columns */
+
+#footer .foocol,
+.eightcol,
+.fourcol,
+#footer .bottom-menu
+{
+    width: 100%;
+	margin:0 auto !important;
+	float:none !important;
+	display:block;
+	width:100%;
+	border-left: none;
+	border-right:none;
+	padding:20px;
+}
+
+
+#sidebar,
+.footer_text{ max-width:360px; width:100%; float:none !important; margin:0 auto !important; padding:30px 0 !important;}
+
+
+.footer-logo img{ float:none; margin: 30px auto 0 auto;}
+
+
+
+/* posts */
+
+.feature_big{ float:none; margin:0 auto 40px auto; padding-right:0;}
+
+.postbarNone .entry img.heroimg{ margin:30px -20px; left:0; max-width:calc(100% + 40px)}
+
+
+/*//// 
+end stacked colmuns & posts */
+
+
+/* woocommerce */
+#woo-inn{ margin-left:0;}
+
+.woocommerce-page div.product div.summary {
+    margin: 0 0 40px 0;
+    width: 100%;
+}
+.woocommerce-page ul.products li.product, .woocommerce ul.products li.product {
+    width: 100% !important;
+	margin:0 0 30px 0 !important;
+}
+
+.woocommerce h1.page-title,
+p.woocommerce-result-count{ text-align:center; width:100%;}
+
+.woocommerce #foliocontent .woocommerce-tabs,
+.woocommerce #foliocontent .related.products {width: 100%;}
+
+.woocommerce-page #foliosidebar {clear: both;}
+
+.woocommerce .woocommerce-ordering, .woocommerce-page .woocommerce-ordering {float: none;}
+
+.tmnf-sc-quote.left,
+.tmnf-sc-quote.right{ width:100%; float:none; margin-left:0; margin-right:0}
+
+.wpcf7-form p.sixcol{
+float: none;
+margin-right: 0;
+width: 100%;
+}
+
+/* comments */
+.commentlist li.comment {padding: 20px 5px 10px 5px;}
+ul.children li.comment:last-child {padding: 20px 0 10px 20px !important;}
+.commentlist .avatar {right: 0;left:auto;top: 0;width: 40px;}
+li.bypostauthor{ padding-left:10px !important;}
+
+
+/* other */
+
+.give-archive-item{ width:50%}
+
+.give-archive-item:nth-child(2n +3) { clear:left;}
+
+.give-archive-item:nth-child(3n +4) { clear:none;}
+
+
+.wrapper .entry .events-table h5,
+.wrapper .events-table h5{ font-size:20px !important;}
+
+
+.entryhead iframe { max-height: 350px;}
+
+#curtain .searchform {
+    left: 10%;
+    margin: 0 0;
+    max-width: 80%;
+    width: 80%;
+}
+
+#curtain a.curtainclose {
+    left: 30px;
+    margin: 0 0;
+    top: 30px;
+}
+
+
+.wrapper .entry h1{font-size:130% !important;}
+.wrapper .entry h2{font-size:115% !important;}
+.wrapper .entry h3{font-size:100% !important;}
+.wrapper .entry h4{font-size:95% !important;}
+.wrapper .entry h5{ font-size:90% !important;}
+.wrapper .entry h6{ font-size:85% !important;}
+
+h1.entry-title, h2.archiv, .slideinside h2{ font-size:5vw !important;}
+
+#footer .bottom-menu{ margin-bottom:50px !important;}
+	
+}
+
+
+@media only screen and (max-width: 685px) {
+	
+
+h1.entry-title, h2.archiv, .slideinside h2{ font-size:7vw !important;}
+
+.owl-item .eleslideinside{top:8%;}
+
+.eleslideinside h3 {font-size: 5vw;}
+
+.eleslideinside p{ font-size:90%; line-height:1.3; margin:5px 0;}
+
+.eleslideinside .su-button{ margin-top:15px !important;}
+
+.wrapper .events-table td{ display:block; padding: 20px !important; width:100% !important; }
+
+.wrapper .events-table td.date {
+    font-size: 13px;
+	padding:10px 20px !important;
+	text-align:left; 
+}
+
+.events-table img{ max-width:60px !important; margin:0 15px 0 0;}
+
+.wrapper .entry .events-table h5{ margin-bottom:0;}
+
+.wrapper .events-table .list_text p{ display:none;}
+
+.event_header .em-location-map-container {
+    float: none;
+	margin:-40px -40px 40px -40px;
+    width:calc(100% + 80px) !important;
+}
+
+	
+/* posts */
+
+.page-header {
+    padding: 30px 0 30px 0;
+}
+
+.page-header img{ width:220%; max-width:220% !important; left:-60%;}
+
+
+.blogger>.item.has-post-thumbnail .entryhead{ float:none; margin:0 0 20px 0; max-width:100%; background:none;}
+
+.meta-single {
+    margin-top: 5px;
+    padding:0 0 16px 0;
+}
+
+.meta-single p.meta{
+    margin-top: 0;
+}
+
+
+.comment-form-author,
+.comment-form-email,
+.comment-form-url,
+#post-nav,
+.postauthor{ width:100%;}
+
+#respond textarea{ width:99.5%;}
+
+.entry blockquote {
+    margin: 5px 10px;
+    padding: 0 20px !important;
+}
+
+
+.scrollTo_top{ right:0; width:100%;}
+
+ul.related{ width:100%;}
+ul.related li img{ width:100%;}
+
+ul.related li{ width:25% !important; margin:0 0 30px 0; height:auto;}
+
+.related li h5{ padding:0 20px;}
+
+
+
+ul.social-menu li a{padding: 6px 2px 6px 28px;}
+
+ul.social-menu li span{ display:none;}
+
+}
+
+@media only screen and (max-width: 495px) {
+	
+#titles { max-width: 60%;}
+
+.eleslideinside h3 { font-size: 7vw; margin-top:5px;}
+
+.wpm_eleslider .owl-dots{ bottom:0;}
+
+.owl-item .eleslideinside{top:3%;}
+
+.owl-carousel .owl-item img{ width:180% !important; max-width:180% !important; margin:0 -40%;}
+
+.eleslideinside .su-button span {padding: 6px 8px !important;}
+
+.eleslideinside .su-button span i{ display:none;}
+
+.entryhead iframe { max-height: 200px;}
+
+.post-previous, .post-next{ width:100%; margin-top:-1px; margin-left:0;}
+
+#header .header_icons,
+#titles{ border:none !important;}
+
+#navigation, .header_icons {
+    padding-bottom: 10px !important;
+    padding-top: 10px !important;
+}
+
+ul.related li{ width:50% !important;}
+
+ul.related li:nth-child(4){ clear:left;}
+
+.give-archive-item{ width:100%; float:none;}
+
+.give-archive-item img{ width:100%;}
+
+.give-archive-item:nth-child(2n +3) { clear:none;}
+
+.events-table img{ display:none;}
+
+	
+}
